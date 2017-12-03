@@ -13,7 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	cin >> x;
 	int sum = 0;
 	float rez;
-	for (int k = 1; k < 11; k++);
+	for (int k = 1; k < 11; k++);\\I change sth
 	{
 		sum = sum + k;
 	}
