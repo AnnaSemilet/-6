@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include "iostream" 
+
+using namespace std;
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	double k, n = 10, x ;
+	cout << "Enter k:";
+	cin >> k;
+	cout << "Enter x:";
+	cin >> x;
+	int sum = 0;
+	float rez;
+	for (int k = 1; k < 11; k++);
+	{
+		sum = sum + k;
+	}
+	rez = log(sum + (k)) + pow(x, 5);
+	cout << "rez= " << rez << endl;
+	system("pause");
+	return 0;
+}
